@@ -39,11 +39,22 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    return 0
+    result = 1
+    if number == 0:                   
+        return result
+    else:
+       for i in range(number):
+            result *= (number -i)
+       return result                
 
 
 def use_continue() -> None:
-    pass
+    for chiffre in rang(1, 11):
+        if chiffre == 5
+            continue
+        print ( chiffre)
+        else:
+                       
 
 
 def main() -> None:
